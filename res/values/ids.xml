@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="abs__home" />
+    <item type="id" name="abs__up" />
+    <item type="id" name="abs__action_menu_divider" />
+    <item type="id" name="abs__action_menu_presenter" />
+    <item type="id" name="abs__progress_circular" />
+    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="scrollView1">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="imageView2">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="imageView3">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView5">false</item>
+    <item type="id" name="abs__action_bar_title">false</item>
+    <item type="id" name="abs__action_bar_subtitle">false</item>
+    <item type="id" name="abs__imageButton">false</item>
+    <item type="id" name="abs__textButton">false</item>
+    <item type="id" name="abs__action_mode_close_button">false</item>
+    <item type="id" name="abs__activity_chooser_view_content">false</item>
+    <item type="id" name="abs__expand_activities_button">false</item>
+    <item type="id" name="abs__image">false</item>
+    <item type="id" name="abs__default_activity_button">false</item>
+    <item type="id" name="abs__list_item">false</item>
+    <item type="id" name="abs__icon">false</item>
+    <item type="id" name="abs__title">false</item>
+    <item type="id" name="abs__titleDivider">false</item>
+    <item type="id" name="abs__content">false</item>
+    <item type="id" name="abs__checkbox">false</item>
+    <item type="id" name="abs__shortcut">false</item>
+    <item type="id" name="abs__radio">false</item>
+    <item type="id" name="abs__action_bar_container">false</item>
+    <item type="id" name="abs__action_bar">false</item>
+    <item type="id" name="abs__action_context_bar">false</item>
+    <item type="id" name="abs__split_action_bar">false</item>
+    <item type="id" name="abs__action_mode_bar_stub">false</item>
+    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="abs__search_bar">false</item>
+    <item type="id" name="abs__search_badge">false</item>
+    <item type="id" name="abs__search_button">false</item>
+    <item type="id" name="abs__search_edit_frame">false</item>
+    <item type="id" name="abs__search_mag_icon">false</item>
+    <item type="id" name="abs__search_plate">false</item>
+    <item type="id" name="abs__search_src_text">false</item>
+    <item type="id" name="abs__search_close_btn">false</item>
+    <item type="id" name="abs__submit_area">false</item>
+    <item type="id" name="abs__search_go_btn">false</item>
+    <item type="id" name="abs__search_voice_btn">false</item>
+    <item type="id" name="main2">false</item>
+    <item type="id" name="f2">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="listView1">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="deditText1">false</item>
+    <item type="id" name="dcancel">false</item>
+    <item type="id" name="slider">false</item>
+    <item type="id" name="tabs">false</item>
+    <item type="id" name="delButton">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="startAppBanner">false</item>
+    <item type="id" name="latt">false</item>
+    <item type="id" name="view1">false</item>
+    <item type="id" name="view2">false</item>
+    <item type="id" name="view3">false</item>
+    <item type="id" name="title_paired_devices">false</item>
+    <item type="id" name="paired_devices">false</item>
+    <item type="id" name="title_new_devices">false</item>
+    <item type="id" name="new_devices">false</item>
+    <item type="id" name="dtextView1">false</item>
+    <item type="id" name="text1">false</item>
+    <item type="id" name="l">false</item>
+    <item type="id" name="secure_connect_scan">false</item>
+    <item type="id" name="discoverable">false</item>
+    <item type="id" name="background">false</item>
+    <item type="id" name="send_image">false</item>
+    <item type="id" name="bubbles">false</item>
+    <item type="id" name="fonts">false</item>
+    <item type="id" name="about">false</item>
+    <item type="id" name="scan">false</item>
+</resources>

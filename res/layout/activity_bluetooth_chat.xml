@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/main2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@+id/f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ListView android:id="@+id/listView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:stackFromBottom="true" android:transcriptMode="alwaysScroll" android:cacheColorHint="#00000000" android:divider="#00000000" />
+                </LinearLayout>
+                <LinearLayout android:background="#99ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageButton android:layout_gravity="bottom" android:id="@+id/button1" android:background="@drawable/button_incoming" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/blue_251" />
+                    <EditText android:ellipsize="end" android:layout_gravity="bottom" android:id="@+id/deditText1" android:background="@drawable/edit_text_holo_light" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:ems="10" android:freezesText="true" android:layout_weight="1.0" />
+                    <ImageButton android:layout_gravity="bottom" android:id="@+id/dcancel" android:background="@drawable/button_incoming" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_send_holo_light" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/slider" android:background="@drawable/abs__ab_bottom_solid_inverse_holo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:background="@drawable/abs__ab_bottom_solid_dark_holo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.astuetz.viewpager.extensions.PagerSlidingTabStrip android:id="@+id/tabs" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_weight="1.0" app:indicatorColor="#ff33b5e6" app:underlineColor="#ff33b5e6" app:dividerColor="#00000000" app:tabPaddingLeftRight="14.0dip" />
+                        <ImageButton android:id="@+id/delButton" android:background="@drawable/send_button" android:layout_width="wrap_content" android:layout_height="48.0dip" android:src="@drawable/sym_keyboard_delete" android:layout_weight="0.3" />
+                    </LinearLayout>
+                    <android.support.v4.view.ViewPager android:id="@+id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

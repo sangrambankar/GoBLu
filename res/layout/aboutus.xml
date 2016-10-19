@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="center_vertical" android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView1" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="0dp" android:src="@drawable/icon" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Go Blu!!!!" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Version 1.1" />
+            <LinearLayout android:background="@drawable/message_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:onClick="fbClick">
+                <ImageView android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/about_facebook" />
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/likefb" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/about_item_arrow" />
+            </LinearLayout>
+            <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/aboutdev" />
+            <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/story" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="#ffffffff" android:id="@+id/title_paired_devices" android:background="#ff666666" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_paired_devices" />
+        <ListView android:id="@+id/paired_devices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stackFromBottom="false" android:layout_weight="1.0" />
+        <TextView android:textColor="#ffffffff" android:id="@+id/title_new_devices" android:background="#ff666666" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_other_devices" />
+        <ListView android:id="@+id/new_devices" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stackFromBottom="false" />
+    </LinearLayout>
+    <Button android:layout_gravity="bottom" android:id="@+id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_scan" android:onClick="on_clk" />
+</LinearLayout>

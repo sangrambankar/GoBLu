@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/l" android:background="@drawable/popup_inline_error_above_holo_light" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffffffff" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not Connected : Connect" />
+</LinearLayout>

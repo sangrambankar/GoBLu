@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_search" android:id="@+id/secure_connect_scan" android:title="@string/secure_connect" android:showAsAction="always" />
+    <item android:icon="@android:drawable/ic_menu_mylocation" android:id="@+id/discoverable" android:title="@string/discoverable" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_wallpaper" android:id="@+id/background" android:title="@string/changebackground" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_action_attach" android:id="@+id/send_image" android:title="@string/sendimage" android:showAsAction="always" />
+    <item android:icon="@drawable/bubblesmenue" android:id="@+id/bubbles" android:title="@string/changeBubble" android:showAsAction="never" />
+    <item android:icon="@drawable/fonts" android:id="@+id/fonts" android:title="@string/changefont" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_info" android:id="@+id/about" android:title="@string/aboutus" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/latt" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/attachclick" android:layout_width="90.0dip" android:layout_height="90.0dip" android:onClick="galleryClick">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/attach_gallery" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery" />
+        </LinearLayout>
+        <View android:id="@+id/view1" android:background="@drawable/divider_attach_vertical" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/attachclick" android:layout_width="90.0dip" android:layout_height="90.0dip" android:onClick="appClick">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/avatar03" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/view2" android:background="@drawable/divider_attach_horizontal" android:layout_width="181.0dip" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/attachclick" android:layout_width="90.0dip" android:layout_height="90.0dip" android:onClick="audioClick">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/attach_audio" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/audio" />
+        </LinearLayout>
+        <View android:id="@+id/view3" android:background="@drawable/divider_attach_vertical" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/attachclick" android:layout_width="90.0dip" android:layout_height="90.0dip" android:onClick="videoClick">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/attach_video" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
